@@ -4,6 +4,9 @@
     "build": "tsc -p .",
     "dev": "nodemon --watch \"src/**/*.ts\" --exec \"ts-node\" src/app.ts"
   },
+  "engines": {
+    "npm": "6.0.0"
+  },
   "devDependencies": {
     "@types/express": "^4.17.13",
     "@types/node": "^17.0.21",
