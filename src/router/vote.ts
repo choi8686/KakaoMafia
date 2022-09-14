@@ -68,7 +68,6 @@ router.get("/result", (req: Request, res: Response, next: NextFunction) => {
 
     let maxData = data.filter(e => e.num === maxVotes)
 
-​
 
     if (!data[0]) {
 
